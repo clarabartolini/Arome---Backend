@@ -11,7 +11,7 @@ COPY src ./src
 
 RUN mvn clean package -DskipTests
 
-FROM openjdk:22
+FROM openjdk:17-jdk-slim
 
 COPY --from=build /app/target/webcotaspringboot-0.0.1-SNAPSHOT.jar app.jar
 

@@ -19,7 +19,7 @@
     <description>AromeApi</description>
 
     <properties>
-        <java.version>22</java.version> <!-- Definição correta da versão do Java -->
+        <java.version>17</java.version> <!-- Definição correta da versão do Java -->
     </properties>
 
     <dependencies>
